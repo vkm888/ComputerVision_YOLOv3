@@ -21,7 +21,7 @@ Video Analyzer, Security & Traffic Monitoring - на базі нейромере
 
 ---
 
-## 📸 Варіант 1 (Webcam) cv_yolov3tiny_webcam.py 
+## 📸 Варіант 1: cv_yolov3tiny_webcam.py (Webcam)  
 
 підтримує роботу зі смартфонами через додаток [IP Webcam](https://play.google.com/store/apps/details?id=com.pas.webcam). Це дозволяє використовувати телефон як бездротову камеру.
 
@@ -44,8 +44,13 @@ Video Analyzer, Security & Traffic Monitoring - на базі нейромере
 
 ---
 
-## 📺 Варіант 2: Аналіз трафіку з YouTube ##
+## 📺 Варіант 2: cv_yolov3tiny_youtube.py ( Аналіз відео з YouTube ) ##
 Система інтегрована з cap-from-youtube, що дозволяє аналізувати дорожню ситуацію або черги через публічні стріми.
+Скріншот роботи:
+<p align="center">
+  <img src="/img/2026-03-29_yolov3-tiny_youtube.png" width="600" title="YOLO Screen">
+  <br>
+</p>
 
 ---
 
