@@ -15,6 +15,18 @@ Video Analyzer, Security & Traffic Monitoring - на базі нейромере
 ## 📸 Варіант 1: cv_yolov3tiny_webcam.py з використанням смартфона (IP Webcam)
 Проєкт підтримує роботу зі смартфонами через додаток [IP Webcam](https://play.google.com/store/apps/details?id=com.pas.webcam). Це дозволяє використовувати телефон як бездротову камеру безпеки.
 
+## ⚙️ Технічні деталі ##
+- Двигун: OpenCV DNN Module.
+- Інтерфейс: Tkinter.
+- Модель: YOLOv3-Tiny (розмір вхідного зображення 320x320 для швидкості).
+- Логування: Текстовий формат з часовими мітками.
+
+## Завантаження файлів моделі ##
+Для роботи потрібні конфігураційні файли та ваги (додайте їх у корінь папки):
+- yolov3-tiny.weights https://pjreddie.com/media/files/yolov3-tiny.weights
+- yolov3-tiny.cfg https://github.com/pjreddie/darknet/blob/master/cfg/yolov3-tiny.cfg
+- coco.names  https://github.com/pjreddie/darknet/blob/master/data/coco.names
+
 **Налаштування:**
 1. Запустіть сервер у додатку на Android.
 2. Запустіть трансляцію в додатку. Ви отримаєте локальну адресу (наприклад, http://192.168.0.164:8080/).
