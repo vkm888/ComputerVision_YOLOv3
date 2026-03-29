@@ -12,7 +12,7 @@ Video Analyzer, Security & Traffic Monitoring - на базі нейромере
 
 ---
 
-## 📸 Варіант 1: Використання смартфона (IP Webcam)
+## 📸 Варіант 1: cv_yolov3tiny_webcam.py з використанням смартфона (IP Webcam)
 Проєкт підтримує роботу зі смартфонами через додаток [IP Webcam](https://play.google.com/store/apps/details?id=com.pas.webcam). Це дозволяє використовувати телефон як бездротову камеру безпеки.
 
 **Налаштування:**
@@ -21,4 +21,6 @@ Video Analyzer, Security & Traffic Monitoring - на базі нейромере
 3. Вкажіть цю адресу в коді: adress = "http://192.168.0.164:8080/video".
 
 Скріншот роботи:
-`!(/2026-03-29_134911_yolov3-tiny_webcam.png)`
+<p align="center">
+  <img src="2026-03-29_134911_yolov3-tiny_webcam.png" width="600" title="YOLO Screen">
+</p>
