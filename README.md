@@ -13,7 +13,11 @@ Video Analyzer, Security & Traffic Monitoring - на базі нейромере
 Скріншот роботи:
 <p align="center">
   <img src="2026-03-29_134911_yolov3-tiny_webcam.png" width="600" title="YOLO Screen">
+  <br>
+   Дивитися демо-відео роботи на YouTube https://youtu.be/McsY852VWsA  
 </p>
+
+
 
 ---
 
